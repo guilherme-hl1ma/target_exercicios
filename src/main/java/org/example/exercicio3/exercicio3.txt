@@ -1,0 +1,17 @@
+3) Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
+Ao final do processamento, qual será o valor da variável SOMA?
+
+k =  1 < 12; k =  2; soma =  0 +  2;
+k =  2 < 12; k =  3; soma =  2 +  3;
+k =  3 < 12; k =  4; soma =  5 +  4;
+k =  4 < 12; k =  5; soma =  9 +  5;
+k =  5 < 12; k =  6; soma = 14 +  6;
+k =  6 < 12; k =  7; soma = 20 +  7;
+k =  7 < 12; k =  8; soma = 27 +  8;
+k =  8 < 12; k =  9; soma = 35 +  9;
+k =  9 < 12; k = 10; soma = 44 + 10;
+k = 10 < 12; k = 11; soma = 54 + 11;
+k = 11 < 12; k = 12; soma = 65 + 12
+k = 12 < 12 => FALSE
+
+soma = 77
